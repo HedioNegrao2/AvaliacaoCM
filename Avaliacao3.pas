@@ -225,7 +225,7 @@ begin
       begin
         for i := 1 to  101 do
         begin
-          TThread.Sleep(200);
+          TThread.Sleep(50);
           TThread.Synchronize(  nil,
                 procedure
                 begin

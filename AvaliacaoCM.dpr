@@ -2,10 +2,10 @@ program AvaliacaoCM;
 
 uses
   Vcl.Forms,
-  Principal in '..\Principal.pas' {FrmPrincipal},
   Avaliacao2 in 'Avaliacao2.pas',
   Avaliacao1 in 'Avaliacao1.pas',
-  Avaliacao3 in 'Avaliacao3.pas';
+  Avaliacao3 in 'Avaliacao3.pas',
+  Principal in 'Principal.pas' {FrmPrincipal};
 
 {$R *.res}
 
